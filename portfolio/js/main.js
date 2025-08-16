@@ -3,7 +3,7 @@ $(document).ready(function(){
 	const myFullpage = new fullpage('#fullpage', {  /* html에서 페이지 전체를 감싸는 요소 */
 
 		lockAnchors: false,
-		anchors: ['main', 'profile', 'project01', 'project02', 'cardnews', 'thankyou'], /* href="#link1" 이렇게 코딩하면 해당 링크명으로 이동 */
+		anchors: ['main', 'profile', 'project01', 'project02', 'cardnews', 'event', 'thankyou'], /* href="#link1" 이렇게 코딩하면 해당 링크명으로 이동 */
 		autoScrolling:true, /* 한페이지씩 스크롤 */
 		scrollHorizontally: true,
 
