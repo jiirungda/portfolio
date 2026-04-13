@@ -246,15 +246,15 @@
 .project02 .info_reverse .rink .more:hover::after{
     background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cmask id='mask0_226_7' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='24' height='24'%3E%3Crect width='24' height='24' fill='%23D9D9D9'/%3E%3C/mask%3E%3Cg mask='url(%23mask0_226_7)'%3E%3Cpath d='M14 18L12.6 16.55L16.15 13H4V11H16.15L12.6 7.45L14 6L20 12L14 18Z' fill='white'/%3E%3C/g%3E%3C/svg%3E%0A");
 }
-.cardnews .wrapper{
+.project03 .wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.cardnews .info_card .txt{
+.project03 .info_card .txt{
     position: relative;
 }
-.cardnews .info_card .txt h2{
+.project03 .info_card .txt h2{
     position: absolute;
     top: -50px;
     left: 0;
@@ -263,37 +263,37 @@
     line-height: var(--tit-line-height);
     color: rgba(174, 37, 115, 0.2);
 }
-.cardnews .info_card .txt span.tit{
+.project03 .info_card .txt span.tit{
     font-size: 45px;
     font-weight: var(--bold-weight);
     line-height: var(--tit-line-height);
     color: var(--point-color);
 }
-.cardnews .info_card .txt p{
+.project03 .info_card .txt p{
     padding: 20px 0 30px 0;
 }
-.cardnews .info_card .inner{
+.project03 .info_card .inner{
     margin-bottom: 10px;
 }
-.cardnews .info_card .inner strong{
+.project03 .info_card .inner strong{
     display: inline-block;
     font-weight: var(--bold-weight);
     margin-right: 23px;
     width: 50px;
 }
-.cardnews .swiper{
+.project03 .swiper{
     width: 511px;
     height: auto;
 }
-.cardnews .swiper-slide .photo{
+.project03 .swiper-slide .photo{
     overflow: hidden;
     font-size: 0;
     line-height: 0;
 }
-.cardnews .swiper-slide .photo img{
+.project03 .swiper-slide .photo img{
     width: 100%;
 }
-.cardnews .btn_wrap button{
+.project03 .btn_wrap button{
     position: absolute;
     width: 40px;
     height: 40px;
@@ -304,11 +304,11 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
-.cardnews .btn_wrap button.btn_prev{
+.project03 .btn_wrap button.btn_prev{
     left: -5px;
     background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cmask id='mask0_269_12' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='40' height='40'%3E%3Crect width='40' height='40' transform='matrix(-1 0 0 1 40 0)' fill='%23D9D9D9'/%3E%3C/mask%3E%3Cg mask='url(%23mask0_269_12)'%3E%3Cpath d='M26.625 36.6668L29.5834 33.7085L15.875 20.0002L29.5834 6.29183L26.625 3.3335L9.95837 20.0002L26.625 36.6668Z' fill='%23AE2573'/%3E%3C/g%3E%3C/svg%3E%0A");
 }
-.cardnews .btn_wrap button.btn_next{
+.project03 .btn_wrap button.btn_next{
     right: -5px;
     background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cmask id='mask0_269_11' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='40' height='40'%3E%3Crect width='40' height='40' fill='%23D9D9D9'/%3E%3C/mask%3E%3Cg mask='url(%23mask0_269_11)'%3E%3Cpath d='M13.375 36.6668L10.4166 33.7085L24.125 20.0002L10.4166 6.29183L13.375 3.3335L30.0416 20.0002L13.375 36.6668Z' fill='%23AE2573'/%3E%3C/g%3E%3C/svg%3E%0A");
 }
@@ -323,7 +323,7 @@
 @media screen and (max-width: 1300px){
     .project01 .wrapper,
     .project02 .wrapper,
-    .cardnews .wrapper{
+    .project03 .wrapper{
         padding: 0 20px;
     }
 }
