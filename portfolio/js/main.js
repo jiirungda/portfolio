@@ -29,7 +29,7 @@ $(document).ready(function(){
 
 	}); //fullpage
 	
-	const cardnews_swiper = new Swiper('.project03 .swiper', { /* 팝업을 감싼는 요소의 class명 */
+	const project03_swiper = new Swiper('.project03 .swiper', { /* 팝업을 감싼는 요소의 class명 */
 
         //autoplay: {  /* 팝업 자동 실행 */
         //    delay: 5000,
